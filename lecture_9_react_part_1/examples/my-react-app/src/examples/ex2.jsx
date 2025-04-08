@@ -6,6 +6,12 @@ class MyHeadline extends Component{
         super()
         console.log("this ran")
     }
+
+    // Fetch all clothing items
+    function getAllClothes() {
+        const response = await fetch(API_BASE_URL);
+        return response.json();
+    }
     render(){
         return <h1>my awesome headline</h1>
     }

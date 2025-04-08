@@ -8,14 +8,12 @@ import MyEx4Component from './examples/ex4'
 import MyEx5Component from './examples/ex5'
 import MyEx6Component from './examples/ex6'
 
+
 function App() {
   return (
     <>
+    -
       <MyHeadline/>
-      <MyHeadline2/>
-      <MyEx4Component/>
-      <MyEx5Component/>
-      <MyEx6Component/>
     </>
   )
 }
